@@ -36,18 +36,12 @@ client.on("message", message => {
       .setDescription(`
 	  
 	         Please Chose: 
-			 
-${prefix}help1 ⇏    **  | لعرض جميع اوامر البوت**  
 
-${prefix}help-p ⇏    **  | لعرض الاوامر العامه**  
+${prefix}help1 ⇏    **  | لعرض الاوامر العامه**  
 
-${prefix}help-a ⇏    **  | لعرض الاوامر الاداريه**  
+${prefix}help1 ⇏    **  | لعرض الاوامر الاداريه**  
  
-${prefix}help-g ⇏    **  | لعرض الاوامر الالعاب**  
-
-${prefix}help-m ⇏    **  | لعرض الاوامر الاغاني**  
-
-ملاحضه البوت محمي بكود الجحفله
+${prefix}help1 ⇏    **  | لعرض الاوامر الالعاب**  
 
         `)
    message.channel.sendEmbed(embed)
@@ -62,7 +56,7 @@ ${prefix}help-m ⇏    **  | لعرض الاوامر الاغاني**
   
 
 client.on('message', message => {
-    if (message.content === "-help-p") {
+    if (message.content === "-help1") {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
@@ -75,7 +69,7 @@ client.on('message', message => {
   });
   
 client.on('message', message => {
-    if (message.content === "-help-a") {
+    if (message.content === "-help2") {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
@@ -88,7 +82,7 @@ client.on('message', message => {
   });
   
   client.on('message', message => {
-    if (message.content === "-help-g") {
+    if (message.content === "-help3") {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
@@ -102,7 +96,7 @@ client.on('message', message => {
   
   
   client.on('message', message => {
-    if (message.content === "-help-m") {
+    if (message.content === "-help88") {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#000000")
@@ -136,11 +130,11 @@ client.on('message', message => {
   
   
    client.on("message", message => {
-    if (message.content === "-help--1") {
+    if (message.content === "-help1") {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/b9EV6hs :scroll: **`)
         
    message.author.sendEmbed(embed)
    
@@ -148,11 +142,11 @@ client.on('message', message => {
    });
   
    client.on("message", message => {
-    if (message.content === "-help-a") {
+    if (message.content === "-help2") {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/b9EV6hs :scroll: **`)
         
    message.author.sendEmbed(embed)
    
@@ -160,11 +154,11 @@ client.on('message', message => {
    });
   
      client.on("message", message => {
-    if (message.content === "-help-p") {
+    if (message.content === "-help3") {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/b9EV6hs :scroll: **`)
          
    message.author.sendEmbed(embed)
    
@@ -176,7 +170,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/b9EV6hs :scroll: **`)
         
    message.author.sendEmbed(embed)
    
@@ -188,7 +182,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/b9EV6hs :scroll: **`)
       
    message.author.sendEmbed(embed)
    
@@ -196,7 +190,7 @@ client.on('message', message => {
    });
   
      client.on("message", message => {
-      if (message.content === "-help-a") {
+      if (message.content === "-help1") {
        const embed = new Discord.RichEmbed() 
            .setThumbnail(message.author.avatarURL)
            .setColor("#FF0000")
@@ -262,7 +256,7 @@ client.on('message', message => {
   
   
    client.on("message", message => {
-    if (message.content === "-help-g") {
+    if (message.content === "-help2") {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#FFFF00")
@@ -326,7 +320,7 @@ client.on('message', message => {
      });
   
    client.on("message", message => {
-      if (message.content === "-help-p") {
+      if (message.content === "-help3") {
        const embed = new Discord.RichEmbed() 
            .setThumbnail(message.author.avatarURL)
            .setColor("#FF0000")
@@ -383,12 +377,8 @@ client.on('message', message => {
 
   ** -emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
 
-  ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
+  ** -inv | لدعوة البوت الى سيرفرك**:black_circle:  
 
-  ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
-  
-  ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
-  
 **  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======  **`)
      message.author.sendEmbed(embed)
      
@@ -398,11 +388,11 @@ client.on('message', message => {
   
  
        client.on("message", message => {
-      if (message.content === "-help-a") {
+      if (message.content === "-help1") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By server DJ DaM  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setDescription(`**__أتمنى يعجبكم السيرفر:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
@@ -410,11 +400,11 @@ client.on('message', message => {
 
 
      client.on("message", message => {
-      if (message.content === "-help-g") {
+      if (message.content === "-help2") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By server DJ DaM  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setDescription(`**__أتمنى يعجبكم السيرفر:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
@@ -422,11 +412,11 @@ client.on('message', message => {
 
 
      client.on("message", message => {
-      if (message.content === "-help-m") {
+      if (message.content === "-help3") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
            .setFooter('By server DJ DaM  ')
-           .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
+           .setDescription(`**__أتمنى يعجبكم السيرفر:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
      }
